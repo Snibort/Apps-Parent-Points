@@ -37,4 +37,4 @@ if prompt := st.chat_input("What is up?"):
         st.markdown(response.text)
     
     # Add response to history
-    st.session_state.messages.append({"role": "model", "content"
+    st.session_state.messages.append({"role": "model", "content": response.text})
